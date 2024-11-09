@@ -1,0 +1,1343 @@
+.header-logo {
+    float: left-corner; /* Align to the left */
+    padding-right: 10px;
+    padding-left: 100px;
+    background-color: #ffffff; /* White background around the name */
+    padding: 5px 10px; /* Adds space around the text */
+    border-radius: 3px; /* Rounded corners */
+}
+
+.header-logo h2 {
+    color: #08abcf; /* Light blue color for the name */
+    text-transform: uppercase; /* Capitalizes the name */
+    font-size: 24px; /* Adjust font size as needed */
+    margin: 0;
+}
+
+/* Change the color of the name inside profile-info */
+.profile-info h2 {
+    color: #08abcf; /* Light blue color for the name */
+    font-size: 32px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the name bold */
+}
+
+.profile-info h2 span {
+    font-size: 24px; /* Size of the emoji */
+}
+/* Change the color of the name inside profile-info */
+.profile-info p {
+    color: #f6f8f9; /* Light blue color for the name */
+     /* Make the name bold */
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.about-section, .skills-section, .contact-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.about-section h2 span {
+    font-size: 24px;
+}
+
+.about-section p {
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.skills-header h1 {
+    color: #d3dcde; /* Light blue color for the title */
+    font-size: 36px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the text bold */
+}
+
+.skills-container {
+    width: 100%;
+    max-width: 1000px;
+    background: #1f1c1c;
+    padding: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .skills-description {
+    width: 45%;
+    color: #e9e4e4;
+  }
+
+  .skills-description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #c1ea0d;
+  }
+
+  .skills-description p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e9e4e4;
+  }
+
+  .btn-read-more {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #d92341;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+
+  .btn-read-more:hover {
+    background-color: #6623d9;
+  }
+
+  .skills-bars {
+    width: 50%;
+  }
+
+  .skill {
+    margin-bottom: 15px;
+     
+  }
+
+  .skill-name {
+    font-size: 16px;
+    color: #f7f2f2;
+    margin-bottom: 5px;
+  }
+
+  .skill-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .skill-level {
+    height: 100%;
+    background-color: #6623d9;
+    border-radius: 4px;
+  }
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #08abcf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #08abcf;
+  }
+.contact-section p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section {
+    padding: 60px 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-left, .contact-right {
+    width: 100%;
+    max-width: 45%;
+}
+
+.contact-left h2, .contact-right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.contact-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.contact-card a {
+    font-size: 0.9rem;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.contact-card a:hover {
+    color: #007bff;
+}
+
+form {
+    text-align: left;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    font-size: 0.9rem;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.btn-submit {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-submit span {
+    margin-left: 5px;
+}
+
+.btn-submit:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-left, .contact-right {
+        max-width: 100%;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0909;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-section {
+    padding: 60px 20px;
+    text-align: center;
+    color: #0f0e12;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #f0ecf9;
+}
+
+.about-header p {
+    font-size: 1rem;
+    color: #612ec0;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-left img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.about-right {
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+.info-box h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    color: #f39c12; /* Golden color for the heading */
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #f39c12 ; /* Darker text color for better readability */
+    margin-top: 5px;
+}
+
+  /* Change color for the heading inside info-box */
+  
+.about-description {
+    font-size: 1rem;
+    color: #efe8e8;
+    line-height: 1.6;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.btn-download {
+    display: inline-block;
+    background-color: #333;
+    color: #876bea;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-left, .about-right {
+        width: 100%;
+    }
+
+    .about-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.footer-logo h2 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+.footer-links a:hover {
+    color: #f1c40f;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    transition: filter 0.3s ease;
+}
+
+.footer-social a:hover img {
+    filter: invert(80%) sepia(1) hue-rotate(180deg);
+}
+
+.footer-contact p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links {
+        margin: 20px 0;
+    }
+
+    .footer-contact p {
+        font-size: 0.8rem;
+    }
+}
+
+.nav-list a.active {
+    color: #f1c40f; /* Example color for active link */
+}
+
+.round-image {
+    width: 150px; /* Set width as needed */
+    height: 150px; /* Set height as needed */
+    border-radius: 50%; /* This makes the image round */
+    object-fit: cover; /* Ensures the image fills the circle shape */
+    border: 2px solid #08abcf; /* Optional: Add a border color */
+}
+
+        /* Example CSS for layout and smooth scrolling */
+        html {
+            scroll-behavior: smooth; /* Enables smooth scrolling */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: #333;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-list a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 100px 20px;
+            min-height: 100vh;
+        }
+
+        #home {
+            background: #0a0808;
+        }
+
+        #about {
+            background: #0a0a0a;
+        }
+
+        #skills {
+            background: #1c1818;
+        }
+
+        #services {
+            background: #c4c4c4;
+        }
+
+        #contact {
+            background: #b5b5b5;
+        }
+     /* Container for the contact section */
+     .container {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    /* Header and paragraph */
+    .container h1 {
+        color: #e6edef; /* Light blue color for the header */
+    }
+    .container h2 {
+        color: #e6edef; /* Light blue color for the header */
+    }
+    .container p {
+        color: #fdf7f7; /* Dark color for the paragraph */
+    }
+
+    /* Contact content */
+    .contact-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .contact-left, .contact-right {
+        width: 45%;
+    }
+
+    /* Heading inside contact cards */
+    .contact-card h3 {
+        color: #f39c12; /* Yellow color for the contact titles */
+    }
+
+    /* Text and links inside contact cards */
+    .contact-card p {
+        color: #b92525; /* Dark grey color for contact details */
+    }
+
+    .contact-card a {
+        color: #08abcf; /* Light blue color for links */
+        text-decoration: none; /* Removes underline from links */
+        font-weight: bold; /* Bold links */
+    }
+
+    .contact-card a:hover {
+        color: #007b9a; /* Darker blue color on hover */
+    }
+
+    /* Form section */
+    .contact-right h2 {
+        color: #08abcf; /* Light blue color for form header */
+    }
+
+    .input-box label {
+        color: #e6dfdf; /* Dark grey for label text */
+    }
+
+    .input-box input, .input-box textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .btn-submit {
+        background-color: #08abcf; /* Light blue button */
+        color: white; /* White text on the button */
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn-submit:hover {
+        background-color: #007b9a; /* Darker blue button on hover */
+    }
+
+    
+
+    /* Ensure Form Fields are in a Horizontal Layout */
+.project-form .row {
+    display: flex;
+    flex-wrap: wrap; /* Wrap the columns if there's not enough space */
+    gap: 15px; /* Add space between the form fields */
+}
+
+/* Adjust columns in the horizontal form */
+.project-form .col-md-4 {
+    flex: 1 1 30%; /* Each column will take up around 30% of the width */
+}
+
+/* Button Style */
+button[type="submit"] {
+    background-color: #007bff;
+    border-color: #007bff;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+/* Adjust Card Layout for Horizontal Cards */
+.card {
+    display: flex;
+    flex-direction: column; /* Make sure the cards' content is stacked vertically */
+    height: 100%;
+}
+
+/* Optional: Add hover effects to form inputs or project titles */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+/* Horizontal Layout for Projects */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px; /* Keeps the image consistent across all cards */
+}
+
+/* Make card content fill up space */
+.card-body {
+    flex-grow: 1;
+}
+
+.image-container {
+    display: flex;
+    gap: 10px; /* Space between the images */
+    justify-content: center; /* Center the images horizontally */
+}
+
+.small-img {
+    width: 500px; /* Adjust this size as needed */
+    height: auto; /* Keeps the image’s aspect ratio */
+    border: 2px solid #dddcd9;
+}
+.card-title {
+    color: #FFD700; /* Yellow color for title */
+    size: 22px;
+}
+
+.card-text {
+    font-size: 0.9em; /* Smaller font size */
+    color: #666; /* Soft text color */
+}
+
+.projects-section {
+    background-color: #0f1010;
+}
+.project-scroll-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.project-card {
+    flex: 0 0 300px;
+    border: 2px solid #ede7e7;
+    transition: transform 0.3s, background-color 0.3s;
+    scroll-snap-align: start;
+    background-color: rgb(15, 14, 14);
+}
+.project-card:hover {
+    transform: scale(1.05);
+    animation: hover-color-change 0.5s alternate infinite;
+}
+
+/* Define the animation for color change */
+@keyframes hover-color-change {
+    0% {
+        background-color: #0fd02f; /* Green */
+    }
+    100% {
+        background-color: #ff4d4d; /* Red */
+    }
+}
+
+.image-carousel {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+.carousel-img {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-width: 300px;
+}
+.btn-sm {
+    font-size: 0.9rem;
+}
+
+/* Custom class to increase the font size */
+.large-title {
+    font-size: 1.75rem; /* Adjust as needed */
+    font-weight: bold;  /* Optional for extra emphasis */
+}
+
+----------------
+
+.about-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background */
+}
+
+.about-info {
+    display: flex;
+    gap: 15px; /* Space between boxes */
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px; /* Control max width */
+}
+
+.info-box {
+    background-color: #fff; /* White background for contrast */
+    border: 2px solid #17a2b8; /* Light border to separate boxes */
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease;
+    width: 30%; /* Even width for each box */
+}
+
+.info-box:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+    border-color: #0fd02f; /* Green on hover */
+}
+
+.info-box h3 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .about-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+ ----------------------------------------------------------------
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between; /* Distribute space between logo and navbar */
+    align-items: center; /* Vertically center items */
+    padding: 10px 20px;
+    background-color: #08abcf; /* Initial background color */
+    transition: background-color 0.5s ease; /* Smooth color transition */
+}
+
+.logo {
+    font-size: 2rem; /* Larger font for your name */
+    font-weight: bold;
+    color: #47e3ff; /* Set the logo color (Tomato color) */
+    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+    text-transform: uppercase; /* Capitalize the letters */
+    transition: color 0.5s ease; /* Smooth color transition */
+    margin-right: 20px; /* Space between logo and navbar */
+    flex-shrink: 0; /* Prevent shrinking of the logo */
+}
+
+.navbar {
+    display: flex;
+    flex-grow: 1; /* Make the navbar expand to use remaining space */
+}
+
+.nav-list {
+    list-style: none; /* Remove list styling */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Align nav items to the center */
+    flex-grow: 1;
+}
+
+.nav-list li {
+    margin-left: 20px; /* Space between each link */
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff; /* White text color for links */
+    font-size: 1rem; /* Font size for links */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #47edff; /* Change link color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack logo and navbar for smaller screens */
+        text-align: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list li {
+        margin-top: 10px;
+    }
+}
+----------------------------------------------------------------
+/* General Styles */
+#about {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    transition: transform 0.5s ease-in-out;
+}
+
+h2 span {
+    font-size: 2.5rem;
+    color: #e74c3c; /* Red color for emoji */
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Message box styles */
+.message {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #2ecc71; /* Green color for the message */
+    display: none;
+}
+
+/* Show message when 'Say Hello' is clicked */
+.message {
+    display: inline;
+    animation: fadeIn 1s forwards;
+}
+
+/* Animation for the message */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Animation for the heading */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+----------------------------------------------------------------
+/* Video Section */
+.video-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.video-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.homepage-video {
+    width: 100%;
+ 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.video-section p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 6px;
+}
+----------------------------------------------------------------
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #08abcf, #1c2833); /* Gradient background */
+    padding: 20px 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: transparent; /* Make the text transparent */
+    background: linear-gradient(45deg, #a412e8, #fff); /* Purple to white gradient */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* Support for all browsers */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin-right: 30px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+/* Hover Effect */
+.nav-list a:hover {
+    background-color: #f1c40f; /* Yellow on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Active Link */
+.nav-list a.active {
+    background-color: #f39c12; /* Highlight active link with a golden color */
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .navbar {
+        display: none; /* Hide navbar in smaller screens */
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .header {
+        padding: 15px 20px;
+    }
+}
+----------------------------------------------------------------
+/* Button Styling */
+.btn-download {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(45deg, #a412e8, #8e44ad); /* Gradient from purple to a darker purple */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px; /* Round corners for a sleek look */
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    transition: all 0.4s ease; /* Smooth transition */
+}
+
+/* Hover Effect */
+.btn-download:hover {
+    background: linear-gradient(45deg, #8e44ad, #a412e8); /* Reverse gradient on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Focus Effect */
+.btn-download:focus {
+    outline: none;
+    border: 3px solid #fff; /* White border when focused */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Glow effect when focused */
+}
+
+/* Button Text Animation */
+.btn-download:active {
+    animation: press-animation 0.1s ease-out; /* Press animation on click */
+}
+
+/* Keyframes for Press Animation */
+@keyframes press-animation {
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+----------------------------------------------------------------
+/* Container for the right section */
+.about-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* General style for the info boxes */
+.about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Individual info box styling */
+.info-box {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for info boxes */
+.info-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Title styling inside info boxes */
+.info-box h3 {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Gradient background */
+    text-transform: uppercase;
+}
+
+/* Paragraph text styling */
+.info-box p {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Different background colors for each info box */
+.info-box:nth-child(1) {
+    background-color: #f3f4f7; /* Light background for experience */
+}
+
+.info-box:nth-child(2) {
+    background-color: #f8e1f4; /* Light pink for projects */
+}
+
+.info-box:nth-child(3) {
+    background-color: #e1f7d5; /* Light green for support */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .about-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-box {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+----------------------------------------------------------------
+/* Skills Container Styling */
+.skills-container {
+    padding: 40px;
+    background-color: #f4f4f4; /* Light background */
+}
+
+/* Styling for Skills Description */
+.skills-description h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #12e820; /* Purple color for the heading */
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Optional: Makes the text uppercase */
+}
+* Skills Container Styling */
+.home.skills-container {
+    padding: 40px;
+    background-color: #f4f4f4; /* Light background */
+}
+
+/* Styling for Skills Description */
+.home.skills-description h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #12e820; /* Purple color for the heading */
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Optional: Makes the text uppercase */
+}
+----------------------------------------------------------------
+/* Styling for the "Talk to me" Heading */
+.contact-left h2 {
+    font-size: 2.2rem;
+    color: #e9f1e9; /* Deep purple color for the heading */
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Hover effect for "Talk to me" heading */
+.contact-left h2:hover {
+    color: #83ff61; /* Bright accent color when hovered */
+}
+
+ /* Styling for the "Talk to me" Heading */
+.home.contact-left h2 {
+    font-size: 2.2rem;
+    color: #e9f1e9; /* Deep purple color for the heading */
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Hover effect for "Talk to me" heading */
+.home.contact-left h2:hover {
+    color: #83ff61; /* Bright accent color when hovered */
+}
+
+ 
